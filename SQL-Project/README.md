@@ -12,9 +12,6 @@
 
 1.Customers
 2.Products
-
 3.Stores
-
 4.Employees
-
 5.Sales
