@@ -1,21 +1,20 @@
-The CEO wants to know:
+**The CEO wants to know:**
 
-Which products sell the most?
-Which stores generate the most revenue?
-Which customers spend the most?
-Which months have the highest sales?
-Which salespeople perform best?
+1.Which products sell the most?
+2.Which stores generate the most revenue?
+3.Which customers spend the most?
+4.Which months have the highest sales?
+5.Which salespeople perform best?
 
-Database Design
+**Database Design**
 
-We'll create five tables.
+**We'll create five tables:**
 
-Customers
+1.Customers
+2.Products
 
-Products
+3.Stores
 
-Stores
+4.Employees
 
-Employees
-
-Sales
+5.Sales
