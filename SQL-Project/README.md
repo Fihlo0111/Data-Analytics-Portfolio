@@ -8,7 +8,7 @@ ABC Retail Stores operates multiple stores across South Africa.
 
 The management team wants to understand their sales performance, customer behavior, product trends, and employee performance so they can make data-driven decisions.
 
-As the Data Analyst, yo
+As the Data Analyst,your job is to design the database, populate it with realistic data, and answer business questions using SQL.
 
 **The CEO wants to know:**
 
