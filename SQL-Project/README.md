@@ -1,5 +1,15 @@
 **Project Name: Retail Sales Analysis**
 
+**Business Scenario**
+
+Company: ABC Retail Stores
+
+ABC Retail Stores operates multiple stores across South Africa. 
+
+The management team wants to understand their sales performance, customer behavior, product trends, and employee performance so they can make data-driven decisions.
+
+As the Data Analyst, yo
+
 **The CEO wants to know:**
 
 1.Which products sell the most?
