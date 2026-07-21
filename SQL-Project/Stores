@@ -1,1 +1,11 @@
 
+CREATE TABLE Stores
+(
+    StoreID INT IDENTITY(1,1) PRIMARY KEY,
+
+    StoreName VARCHAR(100),
+
+    City VARCHAR(100),
+
+    Province VARCHAR(100)
+);
