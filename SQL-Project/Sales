@@ -30,3 +30,4 @@ CREATE TABLE Sales
         FOREIGN KEY(StoreID)
         REFERENCES Stores(StoreID)
 );
+
