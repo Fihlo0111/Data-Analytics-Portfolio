@@ -1,1 +1,20 @@
 
+CREATE TABLE Customers
+(
+    CustomerID INT IDENTITY(1,1) PRIMARY KEY,
+
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+
+    Gender CHAR(1),
+
+    Email VARCHAR(150),
+
+    Phone VARCHAR(20),
+
+    City VARCHAR(100),
+
+    Province VARCHAR(100),
+
+    JoinDate DATE
+);
