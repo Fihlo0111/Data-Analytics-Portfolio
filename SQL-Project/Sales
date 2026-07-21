@@ -1,1 +1,32 @@
+CREATE TABLE Sales
+(
+    SaleID INT IDENTITY(1,1) PRIMARY KEY,
 
+    CustomerID INT NOT NULL,
+
+    ProductID INT NOT NULL,
+
+    EmployeeID INT NOT NULL,
+
+    StoreID INT NOT NULL,
+
+    Quantity INT NOT NULL,
+
+    SaleDate DATE NOT NULL,
+
+    CONSTRAINT FK_Sales_Customer
+        FOREIGN KEY(CustomerID)
+        REFERENCES Customers(CustomerID),
+
+    CONSTRAINT FK_Sales_Product
+        FOREIGN KEY(ProductID)
+        REFERENCES Products(ProductID),
+
+    CONSTRAINT FK_Sales_Employee
+        FOREIGN KEY(EmployeeID)
+        REFERENCES Employees(EmployeeID),
+
+    CONSTRAINT FK_Sales_Store
+        FOREIGN KEY(StoreID)
+        REFERENCES Stores(StoreID)
+);
