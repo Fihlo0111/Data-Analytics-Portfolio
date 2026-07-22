@@ -26,4 +26,6 @@ VALUES
 ('Northgate Mall','Johannesburg','Gauteng'),
 ('Boardwalk Mall','Gqeberha','Eastern Cape');
 
+----checking data
+
 select * from Stores
