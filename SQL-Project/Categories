@@ -1,4 +1,4 @@
-
+----creating the Categories table
 USE voucher;
 GO
 
@@ -8,3 +8,25 @@ CREATE TABLE Categories
     CategoryName VARCHAR(100) NOT NULL
 );
 GO
+
+----inserting data into the table 
+
+ALTER TABLE Categories
+ADD CategoryDescription NVARCHAR(50);
+
+INSERT INTO Categories (CategoryName, CategoryDescription)
+VALUES
+('Electronics', 'Electronic devices and accessories'),
+('Groceries', 'Food and household groceries'),
+('Furniture', 'Home and office furniture'),
+('Clothing', 'Men, women and children clothing'),
+('Footwear', 'Shoes, sandals and boots'),
+('Health & Beauty', 'Personal care and beauty products'),
+('Sports', 'Sports equipment and accessories'),
+('Stationery', 'Office and school supplies'),
+('Home Appliances', 'Household electrical appliances'),
+('Toys', 'Children toys and games');
+
+---checking data 
+SELECT *
+FROM Categories;
