@@ -17,3 +17,26 @@ CREATE TABLE Employees
         FOREIGN KEY(StoreID)
         REFERENCES Stores(StoreID)
 );
+
+---inserting data into the table 
+INSERT INTO Employees
+(
+FirstName,
+LastName,
+Position,
+HireDate,
+StoreID
+)
+
+VALUES
+
+('Sipho','Nkosi','Sales Consultant','2022-05-15',1),
+
+('Lerato','Molefe','Store Manager','2021-01-10',1),
+
+('Thabo','Ndlovu','Sales Consultant','2023-03-22',2),
+
+('Naledi','Khumalo','Cashier','2024-01-11',3);
+
+---checking data
+select * from Employees
