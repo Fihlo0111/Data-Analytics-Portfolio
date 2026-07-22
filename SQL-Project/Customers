@@ -18,3 +18,32 @@ CREATE TABLE Customers
 
     JoinDate DATE
 );
+
+----inserting data into the table 
+
+INSERT INTO Customers
+(
+FirstName,
+LastName,
+Gender,
+Email,
+Phone,
+City,
+Province,
+JoinDate
+)
+
+VALUES
+
+('John','Smith','M','john.smith@email.com','0821111111','Johannesburg','Gauteng','2023-01-15'),
+
+('Sarah','Williams','F','sarah@email.com','0822222222','Pretoria','Gauteng','2023-03-11'),
+
+('David','Brown','M','david@email.com','0833333333','Cape Town','Western Cape','2024-01-12'),
+
+('Mary','Johnson','F','mary@email.com','0844444444','Durban','KwaZulu-Natal','2024-02-18'),
+
+('James','Mokoena','M','james@email.com','0715555555','Soweto','Gauteng','2023-08-12');
+
+----- checking data 
+select * from Customers
