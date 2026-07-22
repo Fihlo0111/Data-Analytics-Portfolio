@@ -9,3 +9,21 @@ CREATE TABLE Stores
 
     Province VARCHAR(100)
 );
+
+-----------inserting data into Stores 
+INSERT INTO Stores
+(StoreName, City, Province)
+
+VALUES
+('Sandton Mall','Johannesburg','Gauteng'),
+('Rosebank Mall','Johannesburg','Gauteng'),
+('Mall of Africa','Midrand','Gauteng'),
+('Canal Walk','Cape Town','Western Cape'),
+('Gateway Mall','Durban','KwaZulu-Natal'),
+('Greenstone Mall','Edenvale','Gauteng'),
+('Riverside Mall','Nelspruit','Mpumalanga'),
+('Waterfall Mall','Rustenburg','North West'),
+('Northgate Mall','Johannesburg','Gauteng'),
+('Boardwalk Mall','Gqeberha','Eastern Cape');
+
+select * from Stores
