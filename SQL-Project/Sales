@@ -31,3 +31,29 @@ CREATE TABLE Sales
         REFERENCES Stores(StoreID)
 );
 
+---- inserting data into the table 
+
+INSERT INTO Sales
+(
+CustomerID,
+ProductID,
+EmployeeID,
+StoreID,
+Quantity,
+SaleDate
+)
+
+VALUES
+
+(1,1,1,1,1,'2025-01-05'),
+
+(2,4,3,2,2,'2025-01-08'),
+
+(3,8,4,3,3,'2025-01-10'),
+
+(5,2,2,1,1,'2025-01-15');
+
+---checking data
+
+select * from Sales
+
