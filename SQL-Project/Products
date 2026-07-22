@@ -9,3 +9,32 @@ CREATE TABLE Products
         FOREIGN KEY(CategoryID)
         REFERENCES Categories(CategoryID)
 );
+
+----inserting data into the table 
+
+INSERT INTO Products
+(
+ProductName,
+CategoryID,
+UnitPrice
+)
+
+VALUES
+
+('Dell Laptop',1,15999.99),
+('HP Laptop',1,13499.99),
+('Wireless Mouse',1,399.99),
+('Mechanical Keyboard',1,999.99),
+
+('Office Chair',3,2499.99),
+('Wooden Desk',3,3999.99),
+
+('White Bread',2,18.99),
+('Long Life Milk',2,22.99),
+
+('Nike Running Shoes',5,1799.99),
+
+('Men T-Shirt',4,249.99);
+
+----checking data
+select * from Products
